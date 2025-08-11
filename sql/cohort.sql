@@ -1,0 +1,5 @@
+-- Example cohort query (ANSI-ish SQL)
+-- SELECT user_id,
+--        DATE_TRUNC('month', event_date) AS month,
+--        MIN(DATE_TRUNC('month', event_date)) OVER (PARTITION BY user_id) AS cohort
+-- FROM events;
